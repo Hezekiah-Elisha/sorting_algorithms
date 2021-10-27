@@ -1,5 +1,6 @@
 
 #include "sort.h"
+
 /**
  * _swap - swap between 2 pointers of int
  *
@@ -15,6 +16,7 @@ void _swap(int *a, int *b)
 	*a = *b;
 	*b = tmp;
 }
+
 /**
  * bubble_sort - Bubble sort algorithm for arrangement
  *
